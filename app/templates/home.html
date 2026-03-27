@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Manager Test - Django</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #f5f5f5; }
+        .card { background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; }
+        h1 { font-size: 1.8rem; margin-bottom: 1rem; color: #333; }
+        .badge { display: inline-block; padding: 0.3rem 0.8rem; border-radius: 20px; background: #0c4b33; color: white; font-size: 0.85rem; margin-bottom: 1rem; }
+        p { color: #666; margin-top: 0.5rem; }
+        .time { font-size: 0.8rem; color: #999; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="badge">Django 5.2</div>
+        <h1>Docker Manager 배포 테스트</h1>
+        <p>이 페이지가 보이면 Django 배포 성공입니다.</p>
+        <p class="time">{{ now }}</p>
+    </div>
+</body>
+</html>
